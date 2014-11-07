@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chapter 2 :: jQuery Events</title>
+  <script src="../jquery-1.11.1.min.js"></script>
+  <script>
+    $(function() {
+      $('.button1').click(function(){
+        alert("Button 1 clicked");
+      });
+      $('body').on("click", ".button2", function(){
+        alert("Button 2 clicked");
+      });
+    });
+  </script>
+</head>
+<body>
+  <button class="button1">Button 1</button>
+  <button class="button2">Button 2</button>
+</body>
+</html>
