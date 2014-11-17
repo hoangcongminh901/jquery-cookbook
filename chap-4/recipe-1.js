@@ -1,0 +1,14 @@
+$(function(){
+  $('#up').click(function(){
+    $('.one').slideUp(4000);
+    $('.two').slideUp(3000);
+    $('.three').slideUp(2000);
+    $('.four').slideUp(1000);
+  });
+  $('#down').click(function(){
+    $('.one').slideDown(4000);
+    $('.two').slideDown(3000);
+    $('.three').slideDown(2000);
+    $('.four').slideDown(1000);
+  });
+});

@@ -1,0 +1,17 @@
+.frame {
+  width: 600px;
+  margin: auto;
+  background-color: #CCC;
+  padding: 10px;
+}
+.actions {
+  padding: 10px;
+  background-color: #333;
+  text-align: center;
+}
+.slideMe {
+  background-color: green;
+  height: 150px;
+  margin-top: 10px;
+}
+
